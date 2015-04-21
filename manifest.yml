@@ -5,5 +5,6 @@ applications:
     path: target/pong-matcher-spring-1.0.0.BUILD-SNAPSHOT.jar
     services:
       - mysql
+      - statica
     env: 
       STATICA_MASK: us-cdbr-iron-east-02.cleardb.net

@@ -2,13 +2,11 @@
 spring:
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://us-cdbr-iron-east-02.cleardb.net:3306/ad_fa409490cacd686
-    username: b76c976c6c0301
-    password: 6f0de4a9
     maxActive: 2
-    #url: jdbc:mysql://127.0.0.1/pong_matcher_spring_development
-    #username: springpong
-    #password: springpong
+    #Statica proxy will not work with localhost so replace this with cloud db url to test.
+    url: jdbc:mysql://127.0.0.1/pong_matcher_spring_development
+    username: springpong
+    password: springpong
   jpa:
     hibernate.ddl-auto: none
     show_sql: false
